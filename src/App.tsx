@@ -11,7 +11,7 @@ const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || 'YOUR_GOOGLE_CLIENT_ID
 function App() {
   return (
     <GoogleOAuthProvider clientId={clientId}>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="dashboard-layout">
           <aside className="sidebar">
             <div className="nav-brand" style={{ marginBottom: '1rem' }}>
