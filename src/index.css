@@ -127,6 +127,15 @@ p {
   animation: fadeIn 0.5s ease-out forwards;
 }
 
+@keyframes fadeInSimple {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in-simple {
+  animation: fadeInSimple 0.5s ease-out forwards;
+}
+
 /* Layout */
 .container {
   max-width: 1200px;

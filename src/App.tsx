@@ -29,7 +29,7 @@ function App() {
             </nav>
           </aside>
           
-          <main className="main-content animate-fade-in">
+          <main className="main-content animate-fade-in-simple">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/invoice-summary" element={<InvoiceSummary />} />
